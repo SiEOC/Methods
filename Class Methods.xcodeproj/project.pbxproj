@@ -14,6 +14,7 @@
 		06D2C7071B4ECCB400C62D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D2C7061B4ECCB400C62D37 /* Images.xcassets */; };
 		06D2C70A1B4ECCB400C62D37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D2C7081B4ECCB400C62D37 /* LaunchScreen.xib */; };
 		06D2C7161B4ECCB400C62D37 /* Class_MethodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2C7151B4ECCB400C62D37 /* Class_MethodsTests.m */; };
+		06D2C7211B4ECCED00C62D37 /* NameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2C7201B4ECCED00C62D37 /* NameHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		06D2C70F1B4ECCB400C62D37 /* Class MethodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class MethodsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D2C7141B4ECCB400C62D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06D2C7151B4ECCB400C62D37 /* Class_MethodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_MethodsTests.m; sourceTree = "<group>"; };
+		06D2C71F1B4ECCED00C62D37 /* NameHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameHelper.h; sourceTree = "<group>"; };
+		06D2C7201B4ECCED00C62D37 /* NameHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				06D2C6FD1B4ECCB400C62D37 /* AppDelegate.h */,
 				06D2C6FE1B4ECCB400C62D37 /* AppDelegate.m */,
+				06D2C71F1B4ECCED00C62D37 /* NameHelper.h */,
+				06D2C7201B4ECCED00C62D37 /* NameHelper.m */,
 				06D2C7001B4ECCB400C62D37 /* ViewController.h */,
 				06D2C7011B4ECCB400C62D37 /* ViewController.m */,
 				06D2C7031B4ECCB400C62D37 /* Main.storyboard */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D2C7211B4ECCED00C62D37 /* NameHelper.m in Sources */,
 				06D2C7021B4ECCB400C62D37 /* ViewController.m in Sources */,
 				06D2C6FF1B4ECCB400C62D37 /* AppDelegate.m in Sources */,
 				06D2C6FC1B4ECCB400C62D37 /* main.m in Sources */,
